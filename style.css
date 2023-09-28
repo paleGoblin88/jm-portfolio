@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  font-family: "Merriweather", "Arial Narrow", Arial, sans-serif;
+}
+
+nav.container {
+  padding: 20px 50px;
+  background-color: #807d6f;
+  color: #e0dfd3;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+header {
+  padding: 20px;
+  background-color: #241914;
+  color: #e0dfd3;
+}
